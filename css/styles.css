@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+.navbar-nav .active a{
+	color: red;
+}
+
+.navbar-nav a{
+	color: white;
+}
+
+/*Inicio*/
+main h1{
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #F29C50;
+}
+
+main h2{
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #F29C50;
+}
+
+#ubicacion{
+	text-align: center;
+}
+
+.card{
+	text-align: center;
+}
+
+/*Recamaras*/
+.habitaciones:hover{
+	background-color: #F29C50;
+	color: #038C65;
+}
+
+/*Contacto*/
+.formulario{
+	text-align: center;
+}
+
+.boton{
+	text-align: center;
+}
+
+
+.pestanas:hover{
+	background-color: #F29C50;
+	color: #038C65;
+}
